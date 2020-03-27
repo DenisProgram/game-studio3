@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.menu{
+    background-color: #131313;
+    height: 80px;
+    justify-content:space-between;
+    border-bottom:2px solid #FFB320;
+    display: flex;
+}
+
+.buttons_of_menu{
+    margin: 30px 200px 0px 0px;
+    
+    
+}
+.nav_buttons{
+    display: flex;
+    list-style-type:none ;
+    
+    
+}
+.linksbut{
+    margin-left: 37px;
+    color:white ;
+    font-size: 16px; 
+}
+.linksbut:hover{
+    color: #FFB320;
+    text-decoration: none;
+}
+.logo{
+    margin: 25px 200px 25px 250px;
+}
+
+.div_registrbutt{
+    padding-top: 20px;
+}
+.button{
+    background-color:#FFB320 ;
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 150px;
+    background-color: #FFB320;
+    color: #131315;
+    border-radius: 20px;
+    border: none;
+    
+    
+}
+.registrbutt:focus{
+    outline: none;
+}
+/* здесь бугущая строка */
+.sect_run_string{
+    display: flex;
+    height: 70px;
+    
+}
+.block-latest-news{
+    background-color: #FFB320;
+    width: 38%;
+}
+.latest-news{
+    padding-left: 60%;
+    padding-top: 20px;
+    color: white;
+    font-size: 19px;
+}
+
+.block-run-str{
+    width: 100%;
+    background-color: #131315;
+    
+}
+.marq_run_str{
+    color: white;
+    padding: 20px 0px;
+}
+.badge{
+    margin: 0 30px;
+   
+    font-size: 16px;
+    
+    
+}
+
+marquee h3{
+    font-size: 16px;
+}
+
+#new,#strategy,#racing{
+    
+    padding:5px 10px;
+    border-radius: 0px;
+    font-size: 16px;
+}
+#new{
+    background-color: red;
+}    
+#strategy{
+    background-color: #4EAE60;
+    
+}
+#racing{
+    
+    background-color:#694EAE;
+    
+}
+/* это верхняя картинка bg */
+.page-top-bg{
+    height: 499px;
+    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/page-top-bg/4.jpg");
+}
+
+.text-bg-top{
+    /* background-color: lawngreen; */
+    color: white;
+    /* width: 300px; */
+    padding: 230px 0px 0px 250px;
+    font-size: 60px;
+
+}
+.text-bg-top__subtitle{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/* здесь секция members */
+.community{
+    
+    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/community-bg.jpg');
+    height: 2300px;
+    padding: 0px 150px;
+    background-repeat: no-repeat;
+    background-size: 2400px 2400px;
+    background-position: -450px;
+}
+.members{
+    background-color: rgb(40, 40, 44,0.3);
+	/* position: relative; */
+	padding: 110px ;
+    
+    
+}
+
+.members__top{
+    /* position: relative; */
+    height: 150px;
+    
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    /* top: 100px; */
+}
+.members__top_title{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.members__top_block-show{
+	
+	display: flex;
+}
+.members__top_show{
+    margin-right: 20px;
+    margin-top: 7px;
+}
+#select{
+	height: 45px;
+	width: 220px;
+	font-size: 16px;
+	font-weight: 500;
+	position:relative;
+	justify-content: right;
+}
+.comments_blocks{
+	background-color: rgb(48, 50, 56);
+	margin-top: 30px;
+	padding: 10px 10px;
+}
+.comments-blocks__content{
+    /* background-color: seagreen; */
+}
+.text-content{
+    /* background-color: khaki; */
+    margin-left: 140px;
+}
+.text-line1{
+	display:flex;
+    /* background-color: skyblue; */
+    font-weight: 700;
+    
+}
+.naming{
+    color: #FF2052;
+    font-weight: 400;
+}
+.status{
+    margin-left: 20px;
+    color: grey;
+    font-weight: 400;
+}
+.apdate{
+    font-size: 14px;
+    line-height: 3;
+    color: #DCB321;
+    
+}
+.big_text{
+    margin-top: -10px;
+    color: white;
+}
+.avatars{
+	float: left;
+	border-radius:50%;
+	width: 70px;
+    height: 70px;
+    margin-left: 30px;
+
+}
+.numbers_of_page{
+    
+    display: flex;
+    margin-top: 70px;
+}
+.numbers{
+    background-color: #E5E5E5;
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding:4px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+#number1{
+background-color: #FFB320;
+margin-left: 0px;
+}
+/* footer  */
+.footer_body{
+    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/pattern.png');
+    height: 697px;
+    display: flex;
+}
+.footer_elem_left{
+    position: relative;
+    top: 100px;
+    /* background-color: thistle; */
+    width: 406px;
+    margin-left: 10%;
+    height: 597px;
+    
+    /* background: #bb1616; */
+}
+.footer_top_bg{
+    width: 450px;
+    margin-top: 50px;
+     /* background-color: wheat; */
+}
+.text_under_logo{
+    margin-top: 40px;
+    color: white;
+}
+.padding-elem_title{
+    color: white;
+    margin-bottom: 40px;
+}
+.date-blog{
+    color: #FFB320;
+}
+.footer_elem{
+    background-color: #252525;
+    position: relative;
+    top: 100px;
+    padding: 40px;
+    
+    /* display: inline; */
+    height: 500px;
+    margin: 0px 30px;
+}
+.right{
+    margin-left: 0px;
+    background-color: turquoise;
+}
+.padding-elem{
+    display: block;
+    background: #252525;
+    
+}
+.posts{
+    display: flex;
+    background-color:  #252525;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.post-text{
+    margin-left: 10px;
+}
+.avatar{
+    float: left;
+    height: 100px;
+}
+.text_blog{
+    /* line-height: 1; */
+    margin-top: 5px;
+    color: #C5C5C5;
+}
+.admin_blog{
+    color: #6B6B6B;
+}
+.footer_elem_right{
+    height: 300px;
+    background-color: tomato;
+    position: relative;
+    z-index: 4;
+    display: block;
+    top: 100px;
+}
+.people{
+    border-radius: 35px;
+    height: 70px;
+}
+.name-comment{
+    line-height: 1.8;
+}
+#span1{
+    color: #FC1F5D;
+}
+#span2{
+    color: #5C5C5C;
+}
+#span3{
+    color: #D3D3D3;
+}
+.comment-data{
+    margin-top: 3px;
+    color:  #FFB320;
+}
+.low-menu{
+    height: 60px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+}
+.rights-recieve{
+    color: #A5AEAE;
+    margin: auto ;
+    font-size: 14px;
+
+}
+#heart{
+    height: 15px;
+}
+#colorlib:hover{
+    text-decoration: none;
+}
+.low_nav{
+    margin-right: 200px;
+    display: flex;
+    /* color:rgb(209, 14, 14) ; */
+    list-style-type:none ;
+    line-height: 60px;
+}
+.nav_buttons-low{
+    font-size: 16px;
+    
+    color:rgb(209, 14, 14) ;
+    display: flex;
+}
+.low-linksbut{
+    margin-left:37px;
+    color: #AEAEA9;
+   
+}
+.href_low{
+    color: #AEAEA9; 
+    /* text-decoration: none; */
+}
+.href_low:hover{
+    color: #AEAEA9; 
+    text-decoration: none;
+}

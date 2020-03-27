@@ -1,0 +1,460 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.menu{
+    background-color: #131313;
+    height: 80px;
+    justify-content:space-between;
+    border-bottom:2px solid #FFB320;
+    display: flex;
+}
+.nav{
+    justify-content:space-between; 
+}
+.button_of_menu{
+    margin: 30px 200px 0px 0px;
+    
+    
+}
+.nav_buttons{
+    display: flex;
+    list-style-type:none ;
+    
+    
+}
+.linksbut{
+    margin-left: 37px;
+    color:white ;
+    font-size: 16px; 
+}
+.logo{
+    margin: 25px 200px;
+}
+.linksbut:hover{
+    color: #FFB320;
+    text-decoration: none;
+    
+}
+.div_registrbutt{
+    padding-top: 20px;
+}
+.button{
+    background-color:#FFB320 ;
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 150px;
+    background-color: #FFB320;
+    color: #131315;
+    border-radius: 20px;
+    border: none;
+    
+    
+}
+.registrbutt:focus{
+    outline: none;
+}
+/* здесь бугущая строка */
+.sect_run_string{
+    display: flex;
+    height: 70px;
+    
+}
+.block-latest-news{
+    background-color: #FFB320;
+    width: 27%;
+}
+.latest-news{
+    padding-left: 60%;
+    padding-top: 20px;
+    color: white;
+    font-size: 19px;
+}
+
+.block-run-str{
+    width: 100%;
+    background-color: #131315;
+    
+}
+.marq_run_str{
+    color: white;
+    padding: 20px 0px;
+}
+.badge{
+    margin: 0 30px;
+   
+    font-size: 16px;
+    
+    
+}
+
+marquee h3{
+    font-size: 16px;
+}
+
+#new,#strategy,#racing{
+    
+    padding:5px 10px;
+    border-radius: 0px;
+    font-size: 16px;
+}
+#new{
+    background-color: red;
+}    
+#strategy{
+    background-color: #4EAE60;
+    
+}
+#racing{
+    
+    background-color:#694EAE;
+    
+}
+/* это картинка с драконом
+ */
+.sect_drag_img{
+    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/page-top-bg/3.jpg");
+    background-repeat: no-repeat;
+    height: 499px;
+    
+}
+.text_in_dragon{
+    padding: 230px 0px 0px 250px;
+    color: aliceblue;
+}
+.main_in_dragon{
+
+    /* white-space: pre; */
+    font-size: 60px;
+    font-weight: 400;
+}
+/* это блок с 6 играми */
+
+
+
+.six12_games,.six34_games,.six56_games{
+    /* /background-color: tomato ; */
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+.mark{
+    background-color: #FFB320;
+    /* display: inline-block; */
+    border-radius: 50%;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    /* padding: 30px; */
+    color:white;
+    top: -30px;
+    left:25px ;
+    z-index: 1001;
+}
+#bg-color6{
+    background-color: #FFB320;
+}
+#bg-color-rev1{
+    background-color:#FFB320 ;
+}
+#bg-color-rev2{
+    background-color:#694EAE ;
+}
+#bg-color-rev3{
+    background-color:#4EAE60 ;
+}
+#bg-color-rev4{
+    background-color:#FF20AE ;
+}
+.mark__number {
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#six34_games{
+    /* background-color: rgb(43, 39, 51); */
+}
+.right_games,.left_games{
+    height: 550px;
+    width: 561px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+    
+    
+}
+
+.right_games{
+    margin-left: 50px;
+}
+
+.name1_game{
+    text-align: center;
+    
+    margin-top: 35px;
+}
+.div_stars{
+    display: flex;
+    
+    justify-content: center;
+}
+.fa-star{
+    color: #FBB710;
+    margin-left: 3px;
+}
+#unpaint_star{
+    color: #E0E3E4;
+}
+.text_game{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.load_button{
+    /* background-color: rgb(43, 39, 51); */
+    
+    display: block;
+    height: 150px;
+    margin:0 auto;
+    text-align: center;
+   
+}
+#load_button{
+    margin-top: 60px;
+}
+
+
+
+/* это блок с rewiew */
+.reviews{
+    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/review-bg-2.jpg");
+    height: 838px;
+    background-position:-200px, 0;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    position: relative; 
+    right: 50px; */
+    /* margin-right: 150px; */
+}
+.the_biggest_div{
+    position: relative;
+    top: 100px;
+    /* background-color: aqua; */
+}
+.div_title_rev{
+    /* background-color: black; */
+    /* justify-content: center; */
+    position:static;
+    /* display: flex; */
+    height: 200px;
+}
+.title_reviews{
+    color: white;
+    text-align: center;
+    /* justify-content: center; */
+    margin: 20px 0px 0px 0px;
+    /* position: relative;
+    top: 50px; */
+
+}
+#new_review{
+    padding:10px 10px;
+    background-color:#FF205F;
+    /* height: 30px; */
+    width: 80px;
+    border-radius: 0px;
+    /* margin-top: 30px; */
+    color: white;
+    margin-top: -30px;
+    /* top: 50px;
+    position: relative; */
+    
+    
+    margin: 0 auto;
+    display: block;
+}
+.games_rev_big_div{
+    /* background-color: #131313; */
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 0 0 ;
+
+}
+.games_rev_divs{
+    /* background-color: #4EAE60; */
+    margin-left: 30px;
+    width: 285px;   
+}
+.under_GR1{
+    text-align: center;
+    margin: 35px 0 20px 0;
+    color: white;
+}
+.under_title_GR{
+    text-align: center;
+    color: #A8A9AE;
+}
+.o{
+    position: relative;
+}
+.games_rev1_imgs{
+    position: relative;
+    height: 345px;
+    /* text-align: center; */
+    margin: 0 auto;
+    display: block;
+}
+/* footer  */
+.footer_body{
+    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/pattern.png');
+    height: 697px;
+    display: flex;
+}
+.footer_elem_left{
+    position: relative;
+    top: 100px;
+    /* background-color: thistle; */
+    width: 406px;
+    margin-left: 10%;
+    height: 597px;
+    
+    /* background: #bb1616; */
+}
+.footer_top_bg{
+    width: 450px;
+    margin-top: 50px;
+     /* background-color: wheat; */
+}
+.text_under_logo{
+    margin-top: 40px;
+    color: white;
+}
+.padding-elem_title{
+    color: white;
+    margin-bottom: 40px;
+}
+.date-blog{
+    color: #FFB320;
+}
+.footer_elem{
+    background-color: #252525;
+    position: relative;
+    top: 100px;
+    padding: 40px;
+    
+    /* display: inline; */
+    height: 500px;
+    margin: 0px 30px;
+}
+.right{
+    margin-left: 0px;
+    background-color: turquoise;
+}
+.padding-elem{
+    display: block;
+    background: #252525;
+    
+}
+.posts{
+    display: flex;
+    background-color:  #252525;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.post-text{
+    margin-left: 10px;
+}
+.avatar{
+    float: left;
+    height: 100px;
+}
+.text_blog{
+    /* line-height: 1; */
+    margin-top: 5px;
+    color: #C5C5C5;
+}
+.admin_blog{
+    color: #6B6B6B;
+}
+.footer_elem_right{
+    height: 300px;
+    background-color: tomato;
+    position: relative;
+    z-index: 4;
+    display: block;
+    top: 100px;
+}
+.people{
+    border-radius: 35px;
+    height: 70px;
+}
+.name-comment{
+    line-height: 1.8;
+}
+#span1{
+    color: #FC1F5D;
+}
+#span2{
+    color: #5C5C5C;
+}
+#span3{
+    color: #D3D3D3;
+}
+.comment-data{
+    margin-top: 3px;
+    color:  #FFB320;
+}
+.low-menu{
+    height: 60px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+}
+.rights-recieve{
+    color: #A5AEAE;
+    margin: auto ;
+    font-size: 14px;
+
+}
+#heart{
+    height: 15px;
+}
+#colorlib:hover{
+    text-decoration: none;
+}
+.low_nav{
+    margin-right: 200px;
+    display: flex;
+    /* color:rgb(209, 14, 14) ; */
+    list-style-type:none ;
+    line-height: 60px;
+}
+.nav_buttons-low{
+    font-size: 16px;
+    
+    color:rgb(209, 14, 14) ;
+    display: flex;
+}
+.low-linksbut{
+    margin-left:37px;
+    color: #AEAEA9;
+   
+}
+.href_low{
+    color: #AEAEA9; 
+    /* text-decoration: none; */
+}
+.href_low:hover{
+    color: #AEAEA9; 
+    text-decoration: none;
+}

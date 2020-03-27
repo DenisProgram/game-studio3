@@ -1,0 +1,110 @@
+@media (max-width: 1000px) and (min-width: 767px){
+  .feature__descr_1, .feature__descr_4{
+     top: 43.8%;
+  }
+  .feature__descr_2, .feature__descr_3{
+    top: 35%;
+  }
+}
+@media(max-width:767px){
+    .reviews__body{
+        margin-left: 9%;
+    }
+}
+@media(max-width:479px){
+  .latest-news__title h3{
+    left: 23%;
+  }
+}
+@media(width:768px){
+  .reviews__body{
+    margin-left: 5%;
+  }
+}
+@media(width:1024px){
+  .reviews__body{
+    margin-left: 3%;
+  }
+}
+@media(max-width: 1245px){
+  .tournaments__item{
+    margin-bottom: 25px;
+  }
+}
+@media(max-width:1025px){
+  .recent-games__descr{
+    width: 72%;
+    margin-left: 14%;
+    margin-bottom: 4%;
+  }
+  .recent-games .btn-group{
+    top: 86.55%;
+    right: 18.5%;
+  }
+
+}
+@media(max-width:424px){
+  .tournaments__item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tournaments__item img{
+    width: 100%;
+    height: 55%;
+  }
+  .tournaments__title{
+    padding-top: 20px;
+    margin-bottom: 8px;
+  }
+  .tournaments__item ul{
+    margin: 0;
+  }
+}
+@media(max-width: 600px){
+  .recent-games__descr{
+    margin-left: 11%;
+    width: 78%;  
+  }
+}
+@media(max-width: 1229px){
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h2{
+    font-size: 30px;
+  }
+  .carousel-caption__btn{
+    width: 20%;
+  }
+}
+
+/* 
+1) текст слайдера не весь, 
+2) текст recent games не той ширины
+*/
+@media(max-width:425px){
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none;
+  }
+  .carousel-caption{
+    top: 27%;
+  }
+  .carousel-caption p{
+    display: none;
+  }
+  .carousel-caption h2{
+    font-size: 24px;
+  }
+  .carousel-caption__btn{
+    width: 40%;
+  }
+}
+@media(max-width:375px){
+  .carousel-caption h2{
+    margin-bottom: 10px;
+  }
+  .carousel-caption__btn{
+    width: 40%;
+    height: 58%;
+  }
+}
