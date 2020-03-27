@@ -120,7 +120,7 @@ marquee h3{
 /* это картинка с драконом
  */
 .sect_drag_img{
-    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/page-top-bg/3.jpg");
+    background-image: url("./img/page-top-bg/3.jpg");
     background-repeat: no-repeat;
     height: 499px;
     
@@ -237,7 +237,7 @@ marquee h3{
 
 /* это блок с rewiew */
 .reviews{
-    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/review-bg-2.jpg");
+    background-image: url("./img/review-bg-2.jpg");
     height: 838px;
     background-position:-200px, 0;
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ marquee h3{
 }
 /* footer  */
 .footer_body{
-    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/pattern.png');
+    background-image: url('./img/pattern.png');
     height: 697px;
     display: flex;
 }
