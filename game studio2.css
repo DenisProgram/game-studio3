@@ -117,7 +117,7 @@ marquee h3{
 /* это верхняя картинка bg */
 .page-top-bg{
     height: 499px;
-    background-image: url("E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/page-top-bg/4.jpg");
+    background-image: url("./img/page-top-bg/4.jpg");
 }
 
 .text-bg-top{
@@ -136,7 +136,7 @@ marquee h3{
 /* здесь секция members */
 .community{
     
-    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/community-bg.jpg');
+    background-image: url('./img/community-bg.jpg');
     height: 2300px;
     padding: 0px 150px;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@ margin-left: 0px;
 }
 /* footer  */
 .footer_body{
-    background-image: url('E:/ПИТОН/HTML CSS/Design of game studio/game-warrior-gh-pages/img/pattern.png');
+    background-image: url('./img/pattern.png');
     height: 697px;
     display: flex;
 }
